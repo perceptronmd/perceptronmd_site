@@ -1,4 +1,4 @@
-baseURL = "perceptronmd.github.io"
+baseURL = "perceptronmd.github.io/"
 languageCode = "en-us"
 title = "PerceptronMD"
 theme="archie"
