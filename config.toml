@@ -1,0 +1,48 @@
+baseURL = "perceptronmd.github.io"
+languageCode = "en-us"
+title = "PerceptronMD"
+theme="archie"
+copyright = "Robert Chen"
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+[params]
+	mode="auto"
+	useCDN=false
+	subtitle = "Medicine | Machine Learning"
+	showFooter=false
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/perceptronmd"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/perceptronmd"
+
+[[params.social]]
+name = "GitLab"
+icon = "gitlab"
+url = "https://github.com/perceptronmd"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
